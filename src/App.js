@@ -1,14 +1,12 @@
+import Expense from "./components/Expenses/Expense";
 
-import './App.css';
-import Expense from './components/Expenses/Expense';
- 
-function App() {
-  let items = [{name:"Food",price:200,date: new Date().getMonth()},{name:"Movie",price:300,date:new Date().getMonth()},{name:"Petrol",price:400,date: new Date().getMonth()}]
+export default function App() {
+  const items = [{title:"Food",price:200},{title:"Petrol",price:100},{title:"Water",price:50}]
   return (
-   <>
-   <Expense items={items}/>
-   </>
+    <div className="App">
+      <Expense title={items[0].title} price={items[0].price} />
+      <Expense title={items[1].title} price={items[1].price} />
+      <Expense title={items[2].title} price={items[2].price} />
+    </div>
   );
 }
-
-export default App;

@@ -32,7 +32,7 @@
 
 }
 
-.expense-name{
+.expense-title{
     font-weight: bold;
     color: antiquewhite;
     display: flex;
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
 }
-.expense-amount{
+.expense-price{
     color:  black;
     font-weight: bold;
     background-color: rgb(139, 234, 164);
