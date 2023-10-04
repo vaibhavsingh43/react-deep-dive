@@ -7,8 +7,7 @@ const Expense = (props) =>{
     setPrice(200)
   }
  return(
-   <>
-      
+   <> 
      <div className="expenses-container">
      <Card>  
      <h1>Expense</h1>
